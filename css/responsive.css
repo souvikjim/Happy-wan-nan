@@ -1,0 +1,160 @@
+@media(max-width:1500px) {
+    .floating_div {
+        top: 10%;
+        left: 11%;
+    }
+}
+
+@media(max-width:1310px) {
+    .floating_div {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .floating_div p {
+        /* display: flex;
+        justify-content: center; */
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:1200px) {
+    #quote {
+        width: 88%;
+    }
+    .notes {
+        left: 0%;
+    }
+    .auther {
+        width: 119px;
+        height: 119px;
+        top: 78%;
+    }
+    .text3 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        max-width: 257px;
+    }
+    .various_links li::after {
+        width: 104px;
+        left: -18px;
+    }
+    .sticker {
+        left: 5%;
+    }
+}
+
+@media(max-width:992px) {
+    .extraline {
+        display: none;
+    }
+    .photoshop_version {
+        margin-top: 100px;
+    }
+    .section5 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .sticker {
+        left: 0%;
+        top: 50%;
+    }
+}
+
+@media(max-width:826px) {
+    .banner_text {
+        top: 20%;
+    }
+    .bannertext_insider h1 {
+        font-size: 35px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:786px) {
+    .notes {
+        max-width: 285px;
+    }
+    #quote {
+        width: 60%;
+    }
+    .text3 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        max-width: 159px;
+        font-size: 20px;
+        top: 49px;
+        left: 59px;
+    }
+    .auther {
+        top: 70%;
+        left: 60%;
+        width: 89px;
+        height: 89px;
+    }
+    .auther p {
+        font-size: 12px;
+    }
+    .photoshop_version {
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:545px) {
+    #slider .owl-dots {
+        top: -10px;
+    }
+    .notes {
+        top: 52%;
+    }
+    .photoshop_version {
+        margin-top: 130px;
+    }
+    .sticker {
+        left: -7%;
+        width: 144px;
+        top: 66%;
+    }
+    .banner5 {
+        border-radius: 0px;
+    }
+}
+
+@media(max-width:460px) {
+    .banner_text {
+        top: 0%;
+    }
+    .bannertext_insider p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .notes {
+        width: 200px;
+    }
+    #quote {
+        width: 85%;
+    }
+    .text3 {
+        top: 40px;
+        left: 22px;
+    }
+    .photoshop_version {
+        margin-top: 154px;
+    }
+    .logo {
+        width: 120px;
+    }
+}
+
+@media(max-width:466px) {
+    .contact_n_location {
+        display: block;
+    }
+}

@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+}
+
+::selection {
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+/* header */
+
+header {
+    background-color: #6495b1;
+    /* position: fixed;
+    width: 100%; */
+}
+
+.contact_n_location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_component {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header_component img {
+    width: 20px;
+    filter: invert(1);
+}
+
+.header_component p {
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+#location {
+    transition: all 0.5s ease;
+}
+
+.header_component p:hover {
+    color: #fff;
+}
+
+.header_component:hover>#location {
+    filter: invert(0);
+}
+
+#location:hover~.locationtext {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header_divs {
+    padding: 10px;
+}
+
+.phno {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.phno:hover {
+    color: #d3414d;
+}
+
+
+/* header end */
+
+
+/* nav start */
+
+
+/* 
+nav {
+    position: fixed !important;
+    background-color: #fff;
+    z-index: 99;
+    top: 50px;
+    left: 0px;
+} */
+
+.logo {
+    width: 193px;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+.nav-items-color {
+    color: #6e9cb6;
+    margin-bottom: 0px;
+}
+
+.extraline {
+    width: 1px;
+    height: 100%;
+    background-color: #cccccc;
+    color: #cccccc;
+    margin-left: 9px;
+}
+
+.lon_in {
+    padding-left: 10px;
+}
+
+.btn1 {
+    color: #d3414d !important;
+    border-radius: 25px;
+    border: 1px solid #d3414d;
+    padding: 5px 20px !important;
+    background-color: #fff;
+    transition: all 0.7s ease;
+    min-width: 200px;
+}
+
+.navbar-expand-lg {
+    width: 100%;
+}
+
+.btn1:hover {
+    color: #fff!important;
+    background-color: #d3414d;
+}
+
+.nav_list {
+    transition: all 0.5s ease;
+}
+
+.nav_list:hover {
+    transform: scale(1.1);
+}
+
+
+/* end of nav */
+
+
+/* start of banner */
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    max-width: 100%;
+}
+
+.banner_text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+}
+
+.bannertext_insider {
+    max-width: 530px;
+    color: #fff;
+}
+
+.bannertext_insider h1 {
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.bannertext_insider p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.slider_holder ul {
+    padding-left: 0px;
+}
+
+#slider .owl-dots {
+    position: relative;
+    top: -39px;
+}
+
+
+/* end of banner */
+
+
+/* start of searching pet sitter */
+
+.heading {
+    color: #7d8d96;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.heading1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.various_option {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.perSitter_options {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.facility button {
+    padding: 6px 5%;
+    width: 176px;
+    background-color: #e5ebef !important;
+    border-right: 1px solid #ced8de !important;
+}
+
+.heading2 {
+    width: 100%;
+}
+
+.nav-link {
+    color: #2675a2;
+}
+
+.item4 {
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    border-right: none !important;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+}
+
+.item1 {
+    border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 25px !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #6495b1 !important;
+}
+
+.perfectsitter {
+    border-radius: 25px;
+    border: 1px solid #dddddd;
+}
+
+.gapzip img {
+    width: 18px;
+}
+
+.gap input {
+    padding: 5px 0px 4px 3px;
+}
+
+.gapzip input {
+    padding: 6px 0px 6px 39px;
+}
+
+.icon1 {
+    position: relative;
+}
+
+.icon1 img {
+    position: absolute;
+    top: 5px;
+    left: 27px;
+}
+
+.btn3 {
+    border: none;
+    background-color: #d3414d;
+    border-radius: 25px;
+    color: #fff;
+    padding: 7px 0px;
+    width: 200px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn3:hover {
+    transform: scale(1.05);
+}
+
+
+/* end of pet sitter searching */
+
+
+/* statement starting */
+
+.statement {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: center;
+    background-color: #2675a2;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.statement span {
+    padding: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.statement i {
+    color: #8ec0dd;
+}
+
+
+/* end of statement */
+
+
+/* start of cozy home */
+
+.straightline {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.small_explanation {
+    color: #a3a3a3;
+    font-weight: 700;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.cards img {
+    max-width: 195px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+.cards figure {
+    min-height: 195px;
+}
+
+.number_n_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#catndog {
+    max-width: 265px;
+}
+
+.number_n_heading h3 {
+    color: #79a3bb;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.card_btn1 {
+    margin-top: 50px;
+    width: 200px;
+    padding: 10px 30px;
+    background-color: #2675a2;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.card_btn1:hover {
+    transform: scale(1.05);
+}
+
+
+/* end of cozy home */
+
+
+/* starting of meet animal lover */
+
+.banner2 {
+    position: relative;
+}
+
+.banner2 img {
+    max-width: 100%;
+}
+
+.notes {
+    line-height: 2.353;
+    position: absolute;
+    top: 9%;
+    left: 13%;
+    max-width: 400px;
+}
+
+#quote {
+    width: 100%;
+}
+
+.text3 {
+    position: absolute;
+    top: 101px;
+    left: 54px;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    width: 265px;
+    font-family: "OpenSansLight";
+    font-size: 23px;
+    line-height: 1.409;
+}
+
+.auther {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #d3414d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 74%;
+    left: 72%;
+}
+
+.auther p {
+    color: #fff;
+    text-align: center;
+    max-width: 97px;
+}
+
+
+/* end of animal lover */
+
+
+/* starting of photoshop version */
+
+.various_links {
+    list-style-type: none;
+}
+
+.various_links a {
+    text-decoration: none;
+}
+
+.various_links li {
+    line-height: 2;
+    text-align: left;
+    position: relative;
+    font-size: 17px;
+    transition: all 0.4s ease-in-out;
+    color: #347ea8;
+}
+
+.various_links li:hover {
+    color: #d3414d;
+}
+
+.various_links li::before {
+    content: url('../images/arrow.png');
+    position: absolute;
+    top: -2px;
+    left: -12px;
+}
+
+.various_links li::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    top: 34px;
+    width: 180px;
+    left: -40px;
+    background-color: #e5e5e5;
+}
+
+.various_links_lastlink::after {
+    display: none;
+}
+
+
+/* end of photostop version */
+
+
+/* starting peace of mind */
+
+.shield_figure img {
+    max-width: 100%;
+}
+
+.promises {
+    display: inline-flex;
+}
+
+.promises img {
+    width: 45px;
+    height: 45px;
+}
+
+.promises h3 {
+    color: #79a3bb;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.promises p {
+    color: #6a6a6a;
+    padding-top: 9px;
+    max-width: 365px;
+}
+
+.promises a {
+    text-decoration: none;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.promises h3:hover {
+    color: #d3414d;
+}
+
+
+/* end of peace of mind  */
+
+
+/* starting top rated sitter near you  */
+
+.top_rated_sitters a {
+    text-decoration: none;
+    color: #5191b5;
+    display: block
+}
+
+.section3 {
+    display: flex;
+    justify-content: end;
+}
+
+.img1 {
+    width: 70px;
+    height: 57px;
+}
+
+.section4 p {
+    font-size: 20px;
+    color: rgb(95, 95, 95);
+    line-height: 1.2;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.section5 {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+}
+
+.section5 button {
+    border: 2px solid #2675a2;
+    background-color: #fff;
+    padding: 7px 40px;
+    color: #2675a2;
+    border-radius: 25px;
+    min-width: 200px;
+    font-weight: bold;
+    transition: all 0.7s ease;
+}
+
+.section5 button:hover {
+    background-color: #2675a2;
+    color: #fff;
+}
+
+.banner5 {
+    background: url('../images/banner3.png') no-repeat center;
+    background-size: cover;
+    height: 214px;
+    overflow-x: hidden;
+    border-radius: 5px;
+    position: relative;
+}
+
+.lst_banner {
+    position: relative;
+}
+
+.sticker {
+    width: 201px;
+    position: absolute;
+    left: 16%;
+    top: 33%;
+    z-index: 999;
+}
+
+.sticker img {
+    max-width: 100%;
+    z-index: 999;
+}
+
+.learn_sittering {
+    position: absolute;
+    top: 30px;
+    left: 0%;
+    text-align: center;
+    color: #fff;
+}
+
+.learn_sittering h3 {
+    font-weight: 100;
+}
+
+.learn_sittering button {
+    padding: 10px 20px;
+    min-width: 200px;
+    background-color: #d3414d;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+
+.learn_sittering button:hover {
+    background-color: white;
+    color: #d3414d;
+}
+
+.picture_links {
+    position: relative;
+}
+
+.bigimages {
+    width: 100%;
+}
+
+.piclink p {
+    font-size: 22px;
+    line-height: 1.273;
+    color: rgb(255, 255, 255);
+    /* -moz-transform: scale(1, 1.01);
+    -webkit-transform: scale(1, 1.01);
+    -ms-transform: scale(1, 1.01); */
+}
+
+.piclink h5 {
+    font-size: 14px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.inside_pic_link {
+    padding: 0px 30px;
+    position: absolute;
+    bottom: 27px;
+}
+
+.inside_pic_link b {
+    transition: all 0.5s ease;
+}
+
+.rightarrow {
+    margin-left: 10px;
+    width: 10px;
+}
+
+.picture_links:hover .rightarrow {
+    box-shadow: 0 0 7px #4276b2;
+}
+
+.picture_links:hover .inside_pic_link b {
+    color: #d3414d;
+    transform: scale(1.09);
+}
+
+
+/* end of top rated sitters */
+
+
+/* dog with human starting */
+
+.dog_with_human {
+    width: 100%;
+    position: relative;
+}
+
+.dog_with_human figure {
+    width: 100%;
+}
+
+.dog_with_human figure img {
+    width: 100%;
+}
+
+.floating_div {
+    position: absolute;
+    text-align: center;
+    display: block;
+    background-color: #fff;
+    top: 20%;
+    left: 21%;
+}
+
+.floating_div h2 {
+    color: #74858f;
+    font-weight: 300;
+}
+
+.floating_div p {
+    max-width: 430px;
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+    color: rgb(95, 95, 95);
+    line-height: 1.333;
+}
+
+.x {
+    padding: 30px;
+}
+
+
+/* end of dog with human */
+
+
+/* footer starting */
+
+.footer_content {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_logo {
+    max-width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.footer_logo img {
+    max-width: 100%;
+}
+
+.about_us {
+    text-align: left;
+}
+
+.about_us h3 {
+    font-size: 20px;
+    color: rgb(38, 117, 162);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.about_us p {
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgb(130, 130, 130);
+    line-height: 1.333;
+    text-align: left;
+}
+
+.about_us ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.about_us ul a {
+    text-decoration: none;
+    text-align: left;
+    color: rgb(130, 130, 130);
+    font-size: 15px;
+}
+
+.about_us li {
+    line-height: 1.5;
+}
+
+.about_us address {
+    display: flex;
+}
+
+.about_us address p {
+    padding-left: 7px;
+    max-width: 200px;
+    font-size: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.about_us address a {
+    text-decoration: none;
+}
+
+.about_us address img {
+    width: 18px;
+    height: 22px;
+}
+
+.about_us figure {
+    padding-left: 24px;
+}
+
+.upside_arrow {
+    position: relative;
+}
+
+.uparrow {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.uparrow a {
+    scroll-behavior: smooth;
+}
+
+
+/* end of footer */
+
+.copyright {
+    padding: 16px;
+    color: #979797;
+}
