@@ -559,7 +559,9 @@ nav {
     width: 70px;
     height: 57px;
 }
-
+.section4{
+    text-align:left;
+}
 .section4 p {
     font-size: 20px;
     color: rgb(95, 95, 95);
